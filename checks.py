@@ -18,7 +18,7 @@ def filter_files(find_command: str) -> List[str]:
         find_command (str): Command to find files
 
     Returns:
-        List[str]: All files found
+        List[str]: All files found - foo
     """
 
     if IGNORE_PATHS:
